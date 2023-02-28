@@ -1,6 +1,6 @@
 module dffrst(
   input reset,clock,d,
-  output q);
+  output reg q);
   always@(posedge clock)
     begin
       if(!reset)
