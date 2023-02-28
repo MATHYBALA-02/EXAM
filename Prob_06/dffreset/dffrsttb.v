@@ -1,7 +1,7 @@
 module dffrst_tb;
   reg d,clock,reset;
   wire q;
-  dffrst dut(reset,clock,d,q)
+  dffrst dut(reset,clock,d,q);
   initial begin
     $dumpfile("dump.vcd");
     $dumpvars;
